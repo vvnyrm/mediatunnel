@@ -1,0 +1,289 @@
+@media screen and (min-width: 20rem) {
+    body {
+      background-color:black;
+       }
+
+       .wrapper {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+     }
+
+     .text-1 {
+        opacity: 100%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+        color:#05787E;
+
+        font-size: 5em;
+     }
+
+     .day-1-text {
+        opacity: 0%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+
+        font-size: 3em;
+     }
+
+     .day-2-text {
+        opacity: 0%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+
+        font-size: 3em;
+     }
+
+     .day-3-text {
+        opacity: 100%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+
+        font-size: 3em;
+        color:#05787E;
+     }
+
+     .row-3 {
+        flex-grow:1;
+        position:relative;
+        padding: .5em;
+     }
+
+     .row-3--content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .row-3--snow {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        opacity: 0%;
+     }
+
+     .row-3--sunset {
+        position: absolute;
+        z-index: 2;
+        height: 70%;
+        width: auto;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        opacity: 0%;
+     }
+
+     .row-3--family {
+        position:absolute;
+        z-index: 4;
+        height: 30%;
+        width: auto;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        opacity: 100%;
+     }
+  }
+
+  @media screen and (min-width: 48rem) {
+     body {
+       background-color:#05787E;
+       }
+
+       .wrapper {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+     }
+
+     .text-1 {
+        opacity: 100%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+
+        font-size: 5em;
+        color:black;
+     }
+
+     .day-1-text {
+        opacity: 0%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+
+        font-size: 3em;
+        color:black;
+     }
+
+     .day-2-text {
+        opacity: 100%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+
+        font-size: 3em;
+        color:black;
+     }
+
+     .day-3-text {
+        opacity: 0%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+        color:black;
+     }
+
+     .row-3 {
+        flex-grow:1;
+        position:relative;
+        padding: .5em;
+     }
+
+     .row-3--content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .row-3--snow {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        opacity: 0%;
+     }
+
+     .row-3--sunset {
+        position: absolute;
+        z-index: 2;
+        height: 70%;
+        width: auto;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        opacity: 100%;
+     }
+
+     .row-3--family {
+        position:absolute;
+        z-index: 4;
+        height: 30%;
+        width: auto;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        opacity: 0%;
+     }
+
+  }
+
+  @media screen and (min-width: 90rem) {
+     body {
+       background-color: #B4C9CE;
+       }
+
+     .wrapper {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+     }
+
+     .text-1 {
+        opacity: 100%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+
+        font-size: 5em;
+        color:black;
+     }
+
+     .day-1-text {
+        opacity: 100%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+
+        font-size: 3em;
+        color:black;
+     }
+
+     .day-2-text {
+        opacity: 0%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+        color:black;
+     }
+
+     .day-3-text {
+        opacity: 0%;
+        font-family: 'Nothing You Could Do';
+        text-align: center;
+        color:black;
+     }
+
+     .row-3 {
+        flex-grow:1;
+        position:relative;
+        padding: .5em;
+     }
+
+     .row-3--content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .row-3--snow {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        opacity: 100%;
+     }
+
+     .row-3--sunset {
+        position: absolute;
+        z-index: 2;
+        height: 70%;
+        width: auto;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        opacity: 0%;
+     }
+
+     .row-3--family {
+        position:absolute;
+        z-index: 4;
+        height: 30%;
+        width: auto;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+
+        opacity: 0%;
+     }
+  }
